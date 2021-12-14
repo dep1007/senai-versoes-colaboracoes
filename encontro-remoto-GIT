@@ -6,13 +6,15 @@ Se eu instalar o VS code, eu tenho que desinstalar o Git e instalar novamente.
 No MACBOOK eu uso cd nomedapasta (sem aspas, sem nada)- no terminal para dar o git init
 Git status depois do git init para saber o que foi alterado
 
-Caso abra.o vin esc:q (quando dá só git commit)
+Caso abra o vin esc:q (quando dá só git commit)
 
 você só precisa configurar 1 vez para a git config --global user.name "seunome" e git config --global user.email "seuemail"
 -m é para digitar mensagem
 git reset to head (apaga antigos commits)
+git log é para ver os comits e onde tudo está
 
 
+GIT NA MÁQUINA
 Passo1:
 cd nome da pasta
 Passo2:
@@ -20,5 +22,15 @@ git init
 Passo3
 git status 
 Passo 3
-git commit -m "criando arquivo pages da aula"
+git commit -m "criando arquivo pages da aula" (na máquina vai até aqui).
+Passo 4
+criar branch: que é uma cópia sem afetar o principal. 
+git branch nomedabranch (geralmente branch develop)
+Passo 5
+se quiser ir para a branch: git checkout nomedabranch (ex: git checkout develop)
+
+GITHUB
+Passo 1:
+
+
 
