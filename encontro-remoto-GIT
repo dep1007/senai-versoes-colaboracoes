@@ -1,0 +1,24 @@
+O que é Git?
+O versionamento ajuda a construir o software.
+
+Se eu instalar o VS code, eu tenho que desinstalar o Git e instalar novamente.
+
+No MACBOOK eu uso cd nomedapasta (sem aspas, sem nada)- no terminal para dar o git init
+Git status depois do git init para saber o que foi alterado
+
+Caso abra.o vin esc:q (quando dá só git commit)
+
+você só precisa configurar 1 vez para a git config --global user.name "seunome" e git config --global user.email "seuemail"
+-m é para digitar mensagem
+git reset to head (apaga antigos commits)
+
+
+Passo1:
+cd nome da pasta
+Passo2:
+git init
+Passo3
+git status 
+Passo 3
+git commit -m "criando arquivo pages da aula"
+
