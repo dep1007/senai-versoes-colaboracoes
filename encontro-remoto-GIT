@@ -30,7 +30,29 @@ Passo 5
 se quiser ir para a branch: git checkout nomedabranch (ex: git checkout develop)
 
 GITHUB
-Passo 1:
+licenças MIT é aberta.
+passo 1
+git remote add link do git
+Passo 2
+git branch -M main
+Passo 3
+git push -u origin main
+Passo 4
+se eu quiser copiar para minha máquina:
+copio o link, crio uma pasta para o projeto, abro o terminal para salvar a pasta (cd nome da pasta)
+depois no terminal: git clone https://github.com/dep1007/senai-versoes-colaboracoes.git 
+(shift insert caso no git bash)
+
+Para trabalhar em equipe:
+cada funcionalidade tem sua própria branch
+- abre o terminal 
+- coloca na pasta
+- crio uma branch com o nome do que eu estou fazendo
+*nunca salvar no git main. Só se estiver perfeito
+*MUDAR UMA BRANCH PARA OUTRA: git checkout nome da branch
+
+-git fetch consegue ver novas branchs
+- git branch -a lista as branchs
 
 
 
